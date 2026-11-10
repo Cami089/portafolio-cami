@@ -1,0 +1,29 @@
+body{
+     background-color: rgb(145, 78, 145);
+     color: blanchedalmond;
+     font-family: cursive;
+     text-align: center;
+    
+}
+
+button{
+    background-color: rgb(123, 235, 235);
+    color: rgb(27, 29, 29);
+    font-family:bold;
+    border-inline-start-style: none;
+
+}
+i{
+    color: black;
+}
+
+input{
+ border-style: dashed; 
+ border-color: blueviolet;
+}
+
+image{
+    right: 10px;
+    width: 80px;
+    z-index: 1000;
+}

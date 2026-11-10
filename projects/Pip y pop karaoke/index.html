@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Karaoke de Pip y Pop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="https://png.pngtree.com/background/20210714/original/pngtree-karaoke-club-neon-sign-picture-image_1247759.jpg" alt="" class="esquina-fija">
+    <h1>Bienvenido al Karaoke de Pip y Pop</h1>
+ 
+    <!--Formulario para agregar canciones-->
+    <form id="song_form">
+        <br><br>
+            <label for="song_name">Nombre de la canción</label>
+        <br>
+        <input id="song_name" type="text">
+        <br><br>
+            <label for="song_artist">Nombre del artista</label>
+        <br>
+        <input id="song_artist" type="text">
+        <br><br>
+            <label for="song_url">Link de la canción</label>
+        <br>
+        <input id="song_url" type="url">
+        <br> <br>
+        <button type="submit">Agregar canción a la lista</button>
+        </form>
+        <!--Lista de reproducción-->
+        <h3>Lista de reproducción</h3>
+        <ul id="playlist">
+ 
+        </ul>
+ 
+    </body>
+    <script src="main.js"></script>
+</html>

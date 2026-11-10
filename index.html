@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Camila Osorio - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <nav class="sidebar">
+      <div class="profile-section">
+        <img src="images/profile.jpg" alt="Profile photo" class="profile-photo" />
+        <h1 class="name">Camila Osorio</h1>
+        <p class="subtitle">Creative Developer passionate about crafting intuitive and beautiful digital experiences.</p>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#diplomas" class="nav-link">Diplomas</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main content -->
+    <main class="main-content">
+      <!-- Home -->
+      <section id="home" class="section">
+        <h2>About Me</h2>
+        <p>
+          I am a third-year student at ¡Supérate! Hilasal, fueled by curiosity and creativity. I enjoy mastering new skills, sharing my ideas, and spreading knowledge.
+        </p>
+        <p>
+          Outside of academics, I immerse myself in fantasy and romance novels, music discovery, movies, and artistic pursuits like drawing and painting, which help me navigate my emotions.
+        </p>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+          <h3>Review</h3>
+          <p>
+            This project is a clean webpage displaying a "Review of April" with a sample Lorem Ipsum paragraph and buttons that dynamically change from square to rounded borders on hover.
+          </p>
+          <p><strong>Technologies used:</strong> HTML, CSS</p>
+          <a href="projects/Review/index.html" target="_blank" class="btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Karaoke Design</h3>
+          <p>
+            An interactive karaoke-themed web design created during my second year to enhance design skills. It features animations and controls through intuitive interactions.
+          </p>
+          <p><strong>Technologies used:</strong> HTML, CSS, JavaScript</p>
+          <a href="projects/Pip y pop karaoke/index.html" target="_blank" class="btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Loqalli</h3>
+          <p>
+            Loqalli is an ExpoTech project — a modern web app for community connectivity and resource sharing. It's built with performance and scalability in mind.
+          </p>
+          <p><strong>Technologies used:</strong> Next.js, Supabase, React, Tailwind CSS</p>
+          <a href="https://loqalli-expo-tech.vercel.app/" target="_blank" class="btn">View Project</a>
+        </div>
+      </section>
+
+      <!-- Diplomas -->
+      <section id="diplomas" class="section">
+        <h2>Diplomas</h2>
+        <ul class="diplomas-list">
+          <li>
+            <strong>Tourism Host</strong>: Training focused on customer service, hospitality, and cultural awareness in tourism.  
+            <a href="https://drive.google.com/file/d/1XFrD6HuOT_SAz-XZTnfTaVw9pd7j7HRI/view?usp=sharing" target="_blank" class="btn btn-outline">View Diploma</a>
+          </li>
+          <li>
+            <strong>Sales Protocols</strong>: Comprehensive course on effective sales techniques, client relationship management, and business ethics.  
+            <a href="https://drive.google.com/file/d/1hqrD6IYDwGcvu2-4u8BXHzsiSqMxNni0/view?usp=sharing" target="_blank" class="btn btn-outline">View Diploma</a>
+          </li>
+          <li>
+            <strong>Art in the Lives of Children</strong>: A course exploring the impact of art on child development and emotional well-being.  
+            <a href="https://drive.google.com/file/d/1KV4n3zd0pJ73F_RpE98L4yMYrVgiaXlL/view?usp=drive_link" target="_blank" class="btn btn-outline">View Diploma</a>
+          </li>
+        </ul>
+
+        <div class="reflection">
+          <h3>Reflection on my journey at ¡Supérate! Hilasal</h3>
+          <p>
+            These three incredible years have transformed me deeply. I have learned to trust in my own abilities and embrace my potential fully. I realize now that not everything depends on me, and that’s okay. Now I know that growth comes with patience and resilience.
+          </p>
+          <p>
+            This journey has empowered me to face challenges with confidence, stay curious, and always seek to better myself through learning and community. I carry these lessons proudly as I move forward.
+          </p>
+        </div>
+
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <ul>
+          <li>Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=osoriocruzcamilan@gmail.com" target="_blank" class="link">osoriocruzcamilan@gmail.com</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/camila-nicole-osorio-cruz-a14651425/" target="_blank" class="link">Camila Osorio</a></li>
+          <li>Github: <a href="https://github.com/Cami089" target="_blank" class="link">Camila Osorio</a></li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    // Navegación activa dinámica:
+    const links = document.querySelectorAll('.nav-link');
+    links.forEach(link => {
+      link.addEventListener('click', () => {
+        links.forEach(l => l.classList.remove('active'));
+        link.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
+
+
