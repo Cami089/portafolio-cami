@@ -350,12 +350,13 @@ body {
 }
 
 .side-photo {
-  width: 200px;
-  height: auto;
+  width: 220px;
+  height: 250px;
   border-radius: 12px;
   object-fit: cover;
   box-shadow: 0 8px 20px rgba(125, 105, 217, 0.4);
 }
+
 
 .reflection {
   background: #463f87;
