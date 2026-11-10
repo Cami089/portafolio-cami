@@ -339,5 +339,31 @@ body {
     font-size: 0.9rem;
   }
 }
+.reflection-container {
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+  max-width: 750px;
+  margin-top: 40px;
+}
+
+.side-photo {
+  width: 200px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 8px 20px rgba(125, 105, 217, 0.4);
+}
+
+.reflection {
+  flex: 1;
+  background: #463f87;
+  border-left: 6px solid #7d69d9;
+  border-radius: 12px;
+  padding: 22px 30px;
+  color: #e5dbff;
+  font-style: italic;
+  user-select: text;
+}
 
 
