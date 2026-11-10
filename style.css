@@ -341,23 +341,23 @@ body {
 }
 .reflection-container {
   display: flex;
-  gap: 25px;
-  align-items: flex-start;
-  max-width: 750px;
+  flex-direction: column;
+  align-items: center;
+  max-width: 550px; /* ajusta según necesidad */
   margin-top: 40px;
+  gap: 20px;
+  text-align: center;
 }
 
 .side-photo {
-  width: 150px;
+  width: 180px;
   height: auto;
   border-radius: 12px;
   object-fit: cover;
   box-shadow: 0 8px 20px rgba(125, 105, 217, 0.4);
 }
 
-
 .reflection {
-  flex: 1;
   background: #463f87;
   border-left: 6px solid #7d69d9;
   border-radius: 12px;
@@ -365,6 +365,5 @@ body {
   color: #e5dbff;
   font-style: italic;
   user-select: text;
+  text-align: left;
 }
-
-
